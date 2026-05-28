@@ -16,7 +16,6 @@ def move_up():
     player.player_class.player_draw(screen)
     player.player_pos = (player.x, player.y) # draws new
 
-    
 def move_down():
     player.y+= 15
     print(f"{player.player_pos}: Player Position")
